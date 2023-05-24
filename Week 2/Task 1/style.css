@@ -1,0 +1,45 @@
+* {
+  font-family: 'Merienda', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+header p,
+main li:last-child {
+  padding-bottom: .5rem;
+}
+
+hr {
+  margin-block: 1.5rem;
+}
+
+footer p + p {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1059ec;
+}
+
+button {
+  padding: .5rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: #1059ec;
+  color: white;
+}
