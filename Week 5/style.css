@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5rem;
+  color: #2E3A53;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: 'Halant', serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #155EEF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  list-style: 3rem;
+  text-transform: uppercase;
+  color: #041330;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Manrope', sans-serif;
+  line-height: 2.25rem;
+  color: #2E3A53;
+}
+
+ul {
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: min(1311px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.box {
+  margin-block: 2rem;
+  padding: 1.5rem 2.5rem;
+  border: 1px solid #155EEF;
+  border-radius: .5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.fw-bold {
+  font-weight: 600;
+}
+
+/* Header */
+header {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #041330;
+}
+
+.header__nav ul {
+  font-family: 'Halant', serif;
+  gap: 4rem;
+  list-style: none;
+}
+
+.header__nav-btn {
+  padding: .625rem 1rem;
+  border-radius: .5rem;
+  border: 1px solid #155EEF;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  color: #155EEF;
+  background-color: #FFF;
+}
+
+/* Hero */
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F9FBFF;
+}
+
+.hero__text {
+  max-width: 65ch;  
+  flex-basis: 52%;
+}
+
+.hero__text p {
+  margin-bottom: 2rem;
+}
+
+.hero__btn {
+  font-size: 1rem;
+  padding: .625rem 1rem;
+  border-radius: .5rem;
+  background-color: #155EEF;
+  color: #FFF;
+}
+
+/* About */
+.about {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__img {
+  border: 1px solid #155EEF;
+  padding: .5rem;
+  border-right: 0;
+}
+
+.about__text {
+  flex-basis: 50%;
+}
+
+/* Project */
+.project {
+  position: relative;
+  padding-bottom: 6rem;
+}
+
+.project__text {
+  width: 55%;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  z-index: 2;
+  background-color: #F9FBFF;
+}
+
+.project__text > * {
+  margin-bottom: 1rem;
+}
+
+.project__text h2 {
+  text-transform: capitalize;
+}
+
+.project__text ul {
+  padding-left: 2.5rem;
+}
+
+.project__img {
+  position: absolute;
+  right: 2.5rem;
+  top: 13rem;
+}
+
+/* Footer */
+footer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icons {
+  gap: 2rem;
+  align-items: center;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-weight: 500;
+}
